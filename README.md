@@ -20,6 +20,6 @@ h1 {letter-spacing: 6px}
 <body>
 
 <!-- !PAGE CONTENT! -->
-<div class="w3-content" style="max-width:1500px">
+<div class="w3-content" style="994:1500px">
 
  
