@@ -1,90 +1,71 @@
-Terry Jung/website
-  /images
-  index.html
-  bio.html
-  portfolio.html
-  contact.html
-  style.css
-  <!DOCTYPE html>
-<html>
-<head>
-  <title>My Website</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="bio.html">Bio</a>
-    <a href="portfolio.html">Portfolio</a>
-    <a href="contact.html">Contact</a>
-  </nav>
-  <h1>Welcome to My Website</h1>
-  <p>This is the homepage.</p>
-</body>
-</html>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Bio - My Website</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Terry Jung - Portfolio</resume.pdf>
+  <style>
+    body { font-family: Arial, sans-serif; margin:0; padding:0; background:#f5f5f5; }
+    nav { background:#222; color:#fff; padding:1em; display:flex; gap:2em; }
+    nav a { color:#fff; text-decoration:none; font-weight:600; }
+    nav a:hover { text-decoration:underline; }
+    section { display:none; padding:2em; }
+    section.active { display:block; }
+    .container { max-width:800px; margin:2em auto; background:#fff; border-radius:8px; box-shadow:0 2px 12px #0001; }
+    .resume-link { display:inline-block; margin-top:1em; padding:.5em 1em; background:#0077cc; color:#fff; border-radius:4px; text-decoration:none; }
+    .resume-link:hover { background:#005fa3; }
+  </style>
 </head>
 <body>
   <nav>
-    <a href="index.html">Home</a>
-    <a href="bio.html">Bio</a>
-    <a href="portfolio.html">Portfolio</a>
-    <a href="contact.html">Contact</a>
+    <a href="#home" onclick="showSection('home')">Home</a>
+    <a href="#portfolio" onclick="showSection('portfolio')">Portfolio</a>
+    <a href="#bio" onclick="showSection('bio')">Bio</a>
+    <a href="#contact" onclick="showSection('contact')">Contact</a>
+    <a href="resume.pdf" class="resume-link" download>Download Resume</a>
   </nav>
-  <h1>About Me</h1>
-  <p>Your bio goes here.</p>
+  <div class="container">
+    <section id="home" class="active">
+      <h1>Your Name</h1>
+      <p>Welcome to my website!</p>
+    </section>
+    <section id="portfolio">
+      <h2>Portfolio</h2>
+      <ul>
+        <li>Project 1 - Description</li>
+        <li>Project 2 - Description</li>
+        <li>Project 3 - Description</li>
+      </ul>
+    </section>
+    <section id="bio">
+      <h2>Bio</h2>
+      <p>Brief biography about yourself goes here.</p>
+    </section>
+    <section id="contact">
+      <h2>Contact</h2>
+      <form>
+        <label>Name:<br><input type="text" name="name"></label><br><br>
+        <label>Email:<br><input type="email" name="email"></label><br><br>
+        <label>Message:<br><textarea name="message"></textarea></label><br><br>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </div>
+  <script>
+    function showSection(sectionId) {
+      document.querySelectorAll('section').forEach(sec => sec.classList.remove('active'));
+      document.getElementById(sectionId).classList.add('active');
+    }
+    // Optional: show section based on URL hash
+    window.addEventListener('hashchange', function() {
+      const hash = location.hash.replace('#', '');
+      if (hash) showSection(hash);
+    });
+    // On load, show correct section
+    window.addEventListener('DOMContentLoaded', function() {
+      const hash = location.hash.replace('#', '') || 'home';
+      showSection(hash);
+    });
+  </script>
 </body>
 </html>
-portfolio.html
-
-HTML
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Portfolio - My Website</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="bio.html">Bio</a>
-    <a href="portfolio.html">Portfolio</a>
-    <a href="contact.html">Contact</a>
-  </nav>
-  <h1>My Portfolio</h1>
-  <ul>
-    <li>Project 1: Description</li>
-    <li>Project 2: Description</li>
-  </ul>
-</body>
-</html>
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Contact - My Website</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="bio.html">Bio</a>
-    <a href="portfolio.html">Portfolio</a>
-    <a href="contact.html">Contact</a>
-  </nav>
-  <h1>Contact Me</h1>
-  <form action="mailto:your@email.com" method="post" enctype="text/plain">
-    Name:<br><input type="text" name="name"><br>
-    Email:<br><input type="email" name="email"><br>
-    Message:<br><textarea name="message"></textarea><br>
-    <input type="submit" value="Send">
-  </form>
-</body>
-</html>
-body { font-family: Arial, sans-serif; margin: 40px; }
-nav { margin-bottom: 20px; }
-nav a { margin-right: 20px; text-decoration: none; color: #333;}
-nav a:hover { text-decoration: underline; }
