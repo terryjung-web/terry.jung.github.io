@@ -2,10 +2,10 @@ Hello World!"
 <!DOCTYPE html>
 <html>
 <head> Terry Jung College Student
-Contact Info:
+Contact Info: TerryJJung@outlook.com
 <title> </title>
 <meta charset="UTF-8"> 
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<Terry Jung="href=20250210_Jung1715144.jpg>
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href= Resume>
