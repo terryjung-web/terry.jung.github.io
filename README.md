@@ -85,30 +85,12 @@ git push -u origin main
   color: #333;
   background: #f9f9f9;
 }
-
-
-
-
-
-
-
-
-
-
- 
-  </section>
-
-  <footer>
-    <p>© 2025 Your Name</p>
-  </footer>
-
+</section>
+<footer>
+<p>© 2025 Your Name</p>
+</footer>
 </body>
 </html>
-🎨 Step 4: Add Some Styling (style.css)
-Here’s a simple starter style:
-
-css
-Copy code
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -116,20 +98,17 @@ body {
   color: #333;
   background: #f9f9f9;
 }
-
 .hero {
   text-align: center;
   padding: 50px;
   background: #222;
   color: white;
 }
-
 .profile-photo {
-  width: 150px;
+ width: 150px;
   border-radius: 50%;
   margin-bottom: 20px;
 }
-
 .btn {
   background: #00bfa5;
   color: white;
@@ -137,13 +116,11 @@ body {
   text-decoration: none;
   border-radius: 5px;
 }
-
 section {
   padding: 40px;
   max-width: 800px;
   margin: auto;
 }
-
 footer {
   text-align: center;
   padding: 20px;
