@@ -197,51 +197,22 @@ section {
   max-width: 800px;
   margin: auto;
 }
-
-footer {
-  text-align: center;
-  padding: 20px;
-  background: #222;
-  color: white;
+margin: 0;
+ padding: 0;
+color: #333;
+background: #f9f9f9;
 }
-
- <!-- Contact Section -->
-  <section id="contact">
-    <h2>Contact Me</h2>
-    <ul>
-      <li>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></li>
-      <li>GitHub: <a href="https://github.com/yourusername">github.com/yourusername</a></li>
-      <li>LinkedIn: <a href="https://linkedin.com/in/yourusername">linkedin.com/in/yourusername</a></li>
-      <li>Twitter: <a href="https://twitter.com/yourusername">@yourusername</a></li>
-    </ul>
-  </section>
-
-  <footer>
-    <p>© 2025 Your Name</p>
-
-</body>
-</html>
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  color: #333;
-  background: #f9f9f9;
-}
-
 .hero {
-  text-align: center;
-  padding: 50px;
-  background: #222;
-  color: white;
+text-align: center;
+padding: 50px;
+background: #222;
+color: white;
 }
-
 .profile-photo {
   width: 150px;
   border-radius: 50%;
   margin-bottom: 20px;
 }
-
 .btn {
   background: #00bfa5;
   color: white;
@@ -249,19 +220,17 @@ body {
   text-decoration: none;
   border-radius: 5px;
 }
-
 section {
-  padding: 40px;
-  max-width: 800px;
-  margin: auto;
+padding: 40px;
+max-width: 800px;
+margin: auto;
 }
-
 footer {
-  text-align: center;
-  padding: 20px;
-  background: #222;
-  color: white;
-<a  href= resume.pdf" download
+text-align: center;
+padding: 20px;
+background: #222;
+color: white;
+<a  href=link resume.pdf" download
 <body>
 </html>
 
