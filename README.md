@@ -9,7 +9,7 @@ Hello World!"
 </head>
 <body>
   <header>
-    <h1>Hello, I'm <span class="highlight">Terry Jung</span></h1>
+    <h1> <span class="highlight">Terry Jung</span></h1>
     <p>College Student<p>
   </header>
 
