@@ -74,9 +74,9 @@ git push -u origin main
   <section id="contact">
     <h2>Contact Me</h2>
     <ul>
-      <li>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></li>
-      <li>GitHub: <a href="https://github.com/yourusername">github.com/yourusername</a></li>
-      <li>LinkedIn: <a href="https://linkedin.com/in/yourusername">linkedin.com/in/yourusername</a></li>
+      <li>Email: <a href="mailto:TerryJJung@outlook.com/a></li>
+      <li>GitHub: <a href="https://github.com/terryjung.github.io"></a></li>
+      <li>LinkedIn: <a href="https://linkedin.com/in/yourusername">linkedin.com/in/terry.jung@howardcc.edu</a></li>
      
      </ul>
   </section>
