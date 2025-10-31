@@ -75,7 +75,7 @@ git push -u origin main
     <h2>Contact Me</h2>
     <ul>
       <li>Email: <a href="mailto:TerryJJung@outlook.com/a></li>
-      <li>GitHub: <a href="https://github.com/terryjung.github.io"></a></li>
+      <li>GitHub: <a href="https://github.com/terryjunggithub.io"></a></li>
       <li>LinkedIn: <a href="https://linkedin.com/in/yourusername">linkedin.com/in/terry.jung@howardcc.edu</a></li>
      
      </ul>
