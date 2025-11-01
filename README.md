@@ -202,9 +202,13 @@ padding: 20px;
 background: #222;
 color: white;
 <a  href=link resume.pdf" download
-Final Resume.pdf
-
-  <body>
+https://github.com/terryjung.github.io
+>File> Save As>PDF
+  latex
+/usepackage{hyperref}
+  latex
+  /href{ https://github.com/terryjung.github.io}..{Github Profile}
+</body>
 </html>
 
 
