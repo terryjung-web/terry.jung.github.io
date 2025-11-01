@@ -87,7 +87,7 @@ git push -u origin main
 }
 </section>
 <footer>
-<p>© 2025 Your Name</p>
+<p>© 2025 Terry Jung</p>
 </footer>
 </body>
 </html>
@@ -202,6 +202,7 @@ padding: 20px;
 background: #222;
 color: white;
 <a  href=link resume.pdf" download
+  Final Resume.pdf
 <body>
 </html>
 
