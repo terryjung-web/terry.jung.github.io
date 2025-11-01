@@ -205,7 +205,7 @@ color: white;
 https://github.com/terryjung.github.io
   
 >File> Save As>PDF
-C:\Users\chris\OneDrive - Howard Community College\Final Resume.docx
+C:\Users\chris\Downloads\terryjung.github.io-main\terryjung.github.io-main\Final Resume.pdf
   latex
 /usepackage{hyperref}
   latex
