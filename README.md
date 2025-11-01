@@ -202,8 +202,9 @@ padding: 20px;
 background: #222;
 color: white;
 <a  href=link resume.pdf" download
-  Final Resume.pdf
-<body>
+Final Resume.pdf
+
+  <body>
 </html>
 
 
