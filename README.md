@@ -205,11 +205,11 @@ color: white;
 https://github.com/terryjung.github.io
   
 >File> Save As>PDF
-C:\Users\chris\Downloads\terryjung.github.io-main\terryjung.github.io-main\Final Resume.pdf
-  latex
+>
+latex
 /usepackage{hyperref}
   latex
-  /href{ https://github.com/terryjung.github.io}..{Github Profile}
+ /href{ https://github.com/terryjung.github.io}..{Github Profile}
 </body>
 </html>
 
